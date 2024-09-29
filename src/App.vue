@@ -3,11 +3,11 @@ import MenubarView from './views/MenubarView.vue'
 </script>
 
 <template>
-  <div class="flex flex-col h-screen bg-slate-100">
-    <div class="flex h-20 w-full">
+  <div class="flex flex-col h-full bg-slate-100">
+    <div class="flex w-full mb-4">
       <MenubarView />
     </div>
-    <main class="flex-1">
+    <main class="flex-1 mx-4 mb-4">
       <RouterView />
     </main>
   </div>
